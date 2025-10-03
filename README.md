@@ -1,1 +1,3 @@
 # Equalize-the-Array--Algo
+
+This C++ code solves the Equalize the Array problem, where the goal is to find the minimum number of deletions required so that all remaining elements in an array are the same. The equalizeArray function counts the frequency of each element using an unordered map, then finds the element with the highest frequency and returns the difference between the total number of elements and this maximum frequency. The main function handles input parsing, using helper functions ltrim, rtrim, and split to clean and split the input, converts it into a vector of integers, and then calls equalizeArray to compute the result. Finally, it writes the result to an output file.
